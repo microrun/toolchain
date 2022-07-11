@@ -1,0 +1,13 @@
+name: Build latest toolchain images
+on: [push]
+jobs:
+ build-c-cplusplus:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Build image
+        uses: chainguard-dev/actions/apko-build@main
+        with:
+          config: c-cplusplus.yaml
+          tag: ghcr.io/microrun/toolchain-c-cplusplus:latest
