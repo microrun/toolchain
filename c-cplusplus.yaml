@@ -10,9 +10,7 @@ contents:
     - qemu-system-aarch64
     - qemu-system-x86_64
     - gnupg
-    - xz
-    - flex
-    - bison
+    - linux-lts-dev
 
 entrypoint:
   command: /bin/sh -lc
