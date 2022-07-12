@@ -4,6 +4,10 @@ contents:
   packages:
     - alpine-base
     - build-base
+    - gcc-aarch64-none-elf
+    - binutils-aarch64
+    - qemu-system-aarch64
+    - qemu-system-x86_64
 
 entrypoint:
   command: /bin/sh -lc
