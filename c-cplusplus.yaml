@@ -11,6 +11,7 @@ contents:
     - qemu-system-x86_64
     - gnupg
     - linux-lts-dev
+    - rsync
 
 entrypoint:
   command: /bin/sh -lc
