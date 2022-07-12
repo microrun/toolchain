@@ -12,6 +12,7 @@ contents:
     - gnupg
     - linux-lts-dev
     - rsync
+    - go
 
 entrypoint:
   command: /bin/sh -lc
