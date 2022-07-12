@@ -1,6 +1,7 @@
 contents:
   repositories:
     - https://dl-cdn.alpinelinux.org/alpine/v3.16/main
+    - https://dl-cdn.alpinelinux.org/alpine/v3.16/community
   packages:
     - alpine-base
     - build-base
