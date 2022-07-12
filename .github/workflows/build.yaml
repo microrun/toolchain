@@ -7,7 +7,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
       - name: Build image
-        uses: chainguard-dev/actions/apko-build@5e21cb47971231c078a677dfe89a348371cb880c
+        uses: distroless/actions/apko-publish@34c6602a14fff7b4cdbf62984291d0c57d67eb66
         with:
           config: c-cplusplus.yaml
           tag: ghcr.io/microrun/toolchain-c-cplusplus:latest
