@@ -6,7 +6,11 @@ contents:
     - build-base
 
 entrypoint:
-  command: /bin/sh -l
+  command: /bin/sh -lc
+
+archs:
+  - amd64
+  - arm64
 
 # optional environment configuration
 environment:
