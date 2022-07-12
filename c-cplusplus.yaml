@@ -11,6 +11,8 @@ contents:
     - qemu-system-x86_64
     - gnupg
     - xz
+    - flex
+    - bison
 
 entrypoint:
   command: /bin/sh -lc
