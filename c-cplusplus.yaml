@@ -15,8 +15,3 @@ entrypoint:
 
 archs:
   - amd64
-# - arm64 - doesn't currently work, see https://github.com/chainguard-dev/apko/issues/291
-
-# optional environment configuration
-environment:
-  PATH: /usr/sbin:/sbin:/usr/bin:/bin
