@@ -9,6 +9,8 @@ contents:
     - binutils-aarch64-none-elf
     - qemu-system-aarch64
     - qemu-system-x86_64
+    - gnupg
+    - xz
 
 entrypoint:
   command: /bin/sh -lc
