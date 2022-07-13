@@ -13,6 +13,8 @@ contents:
     - linux-lts-dev
     - rsync
     - go
+    - xz
+
 
 entrypoint:
   command: /bin/sh -lc
