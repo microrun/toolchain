@@ -11,6 +11,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+        with:
+          platforms: arm64
       - name: Build and publish image
         uses: distroless/actions/apko-publish@34c6602a14fff7b4cdbf62984291d0c57d67eb66
         with:

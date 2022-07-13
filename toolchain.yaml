@@ -15,9 +15,9 @@ contents:
     - go
     - xz
 
-
 entrypoint:
   command: /bin/sh -lc
 
 archs:
   - amd64
+  - arm64
