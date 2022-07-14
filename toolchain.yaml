@@ -11,6 +11,7 @@ contents:
     - go
     - xz
     - libressl-dev
+    - findutils
 
 entrypoint:
   command: /bin/sh -lc
