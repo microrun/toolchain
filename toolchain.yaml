@@ -10,6 +10,7 @@ contents:
     - rsync
     - go
     - xz
+    - libressl-dev
 
 entrypoint:
   command: /bin/sh -lc
