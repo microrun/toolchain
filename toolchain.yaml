@@ -12,6 +12,7 @@ contents:
     - xz
     - libressl-dev
     - findutils
+    - ncurses-dev
 
 entrypoint:
   command: /bin/sh -lc
