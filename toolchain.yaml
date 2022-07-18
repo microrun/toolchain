@@ -14,9 +14,6 @@ contents:
     - findutils
     - ncurses-dev
 
-entrypoint:
-  command: /bin/sh -lc
-
 archs:
   - amd64
   - arm64
